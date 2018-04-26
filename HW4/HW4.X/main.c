@@ -72,7 +72,7 @@ void setVoltage(char channel, int voltage){
     byte_1 = voltage << 4;
     byte_2 = ((channel << 7)|(0b111 << 4))|(voltage >> 4);
     spi_io(byte_1);
-    spi_io(bytw_2);
+    spi_io(byte_2);
     CS = 1;
     
 }
@@ -121,8 +121,8 @@ int main() {
         
             while (_CP0_GET_COUNT()<24000){}
 
-            setVoltage(0, sine_wave[ii]); 
-            setVoltage(1, tri_angle[ii]);
+            setVoltage(0, sine_wave[a]); 
+            setVoltage(1, tri_angle[a]);
             
             
         }
