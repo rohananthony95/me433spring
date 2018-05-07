@@ -1,7 +1,7 @@
 #include<xc.h>           // processor SFR definitions
 #include<sys/attribs.h> 
-#include"I2C2_master_noint.h"
-#include"I2C2_master_noint.c"
+#include"i2c.h"
+
 #pragma config DEBUG = OFF // no debugging
 #pragma config JTAGEN = OFF // no jtag
 #pragma config ICESEL = ICS_PGx1 // use PGED1 and PGEC1
@@ -35,38 +35,40 @@
 #pragma config IOL1WAY = OFF // allow multiple reconfigurations
 #pragma config FUSBIDIO = OFF // USB pins controlled by USB module
 #pragma config FVBUSONIO = OFF // USB BUSON controlled by USB module
-#define SLAVE_ADDR 0x20
 
-void initExpander(){
+
+
+void init_expander(){
     i2c_master_setup();
     i2c_master_start();
-    i2c_master_send(SLAVE_ADDR << 1);
+    i2c_master_send(0b01000000);
     i2c_master_send(0x00);
-    i2c_master_send(0xF0);
+    i2c_master_send(0xFC);
     i2c_master_stop();
 }
 
-void setExpander(char pin, char level){
+void set_expander(char pin, char level){
     i2c_master_start();
-    i2c_master_send(SLAVE_ADDR << 1);
+    i2c_master_send(0b01000000);
     i2c_master_send(0x0A);
     i2c_master_send(level<<pin);
     i2c_master_stop;
 }
 
-char getExpander(){
-    char x;
-    i2c_master_start;
-    i2c_master_send(SLAVE_ADDR << 1);
+unsigned char get_expander(){
+    unsigned char abcd;
+    i2c_master_start();
+    i2c_master_send(0b01000000);
     i2c_master_send(0x09);
     i2c_master_restart();
-    i2c_master_send((SLAVE_ADDR << 1)|1);
-    x = i2c_master_recv();
+    i2c_master_send((0b01000000)|1);
+    abcd = i2c_master_recv();
     i2c_master_ack(1);
     i2c_master_stop();  
-    return x;
-    
+    return abcd;
+   
 }
+
 
 int main() {
     __builtin_disable_interrupts();
@@ -90,33 +92,19 @@ int main() {
 
     
     
-    TRISBbits.TRISB4 = 1;
-    TRISAbits.TRISA4 = 0;
     
     
-    initExpander();
-    setExpander(0,0);
-   
-    __builtin_enable_interrupts();
-    
-    
-    
-    
-    _CP0_SET_COUNT(0);
-    
-    int i = 0;
-    while(1){
-        
-        
-        
-        while((getExpander()>>7)){
-            setExpander(0,1);
-             
+    init_expander();  
+    __builtin_enable_interrupts();    
+    _CP0_SET_COUNT(0);    
+    unsigned char qrst;
+    while(1){       
+        qrst = get_expander()>>7;
+        if (qrst){
+            set_expander(0,1);           
         }
-        
-        
-        
-        
-
+        else {
+            set_expander(0,0);           
+        }
     }
 }

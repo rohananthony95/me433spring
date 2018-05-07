@@ -1,6 +1,6 @@
 
-#ifndef I2C_MASTER_NOINT_H__
-#define I2C_MASTER_NOINT_H__ 
+#ifndef I2C_H
+#define I2C_H
 
 void i2c_master_setup(void);
 void i2c_master_start(void);
