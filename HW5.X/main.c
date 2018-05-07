@@ -95,12 +95,12 @@ int main() {
     
     
     init_expander();  
-    __builtin_enable_interrupts();    
+    __builtin_enable_interrupts();
     _CP0_SET_COUNT(0);    
     unsigned char qrst;
     while(1){       
         qrst = get_expander()>>7;
-        if (qrst){
+        if (!qrst){
             set_expander(0,1);           
         }
         else {
