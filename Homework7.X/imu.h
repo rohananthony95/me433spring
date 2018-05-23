@@ -1,7 +1,5 @@
-#ifndef LSM6DS33_H__
-#define LSM6DS33_H__
-
-#define LSM_ARRAY_LEN 14 
+#ifndef imu_H__
+#define imu_H__
 
 void imu_init(void);
 unsigned char WHOAMI(void); 
