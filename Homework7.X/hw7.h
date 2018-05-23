@@ -32,8 +32,8 @@
 #pragma config FUSBIDIO = OFF // USB pins controlled by USB module
 #pragma config FVBUSONIO = OFF // USB BUSON controlled by USB module
 #define CSbits LatBbits.LatB7 
-#ifndef TFTLCD_H__
-#define TFTLCD_H__
+#ifndef hw7_H__
+#define hw7_H__
 void LCD_drawchar(unsigned short, unsigned short, unsigned short, char);
 void draw_string(unsigned short, unsigned short, unsigned short, char *);
 void progress_bar(unsigned short , unsigned short, int, int);
