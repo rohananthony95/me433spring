@@ -26,16 +26,16 @@ void imu_init(void) {
     i2c_master_stop();  
 }
 unsigned char WHOAMI(void) { 
-    unsigned char answer;
+    unsigned char x;
     i2c_master_start();
     i2c_master_send((0x6A << 1)); 
     i2c_master_send(0x0F);  
     i2c_master_restart(); 
     i2c_master_send((0x6A << 1) | 1); 
-    answer = i2c_master_recv(); 
+    x = i2c_master_recv();
     i2c_master_ack(1); 
     i2c_master_stop();
-    return answer;
+    return x;
 }
 
 void I2Cmultipleread(unsigned char * readings){
