@@ -66,11 +66,11 @@ int main() {
 
     while(1) {
         if (!PORTBbits.RB4) {
-            LATAbits.LATA4 = 0; // if button is pressed, LED turns off
+            LATAbits.LATA4 = 0; 
         }
         else if (_CP0_GET_COUNT() > 500000)    {
-            LATAINV = 0b10000;   // toggle LED
-            _CP0_SET_COUNT(0);  // reset clock        
+            LATAINV = 0b10000;
+            _CP0_SET_COUNT(0);
         }
-    }   // e
+    }
 }
