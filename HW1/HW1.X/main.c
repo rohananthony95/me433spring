@@ -52,36 +52,25 @@ int main() {
 
     // disable JTAG to get pins back
     DDPCONbits.JTAGEN = 0;
+    
 
     // do your TRIS and LAT commands here
     TRISBbits.TRISB4 = 1;
     TRISAbits.TRISA4 = 0;
     LATAbits.LATA4 = 1;
+    
 
     __builtin_enable_interrupts();
     
     
 
     while(1) {
-        LATAbits.LATA4 = 1;
-        _CP0_SET_COUNT(0);
-        while (_CP0_GET_COUNT()<12000){
-            if (PORTBbits.RB4 == 0){
-                while(PORTBbits.RB4 == 0){
-                    
-                }
-            }
+        if (!PORTBbits.RB4) {
+            LATAbits.LATA4 = 0; // if button is pressed, LED turns off
         }
-        LATAbits.LATA4 = 0;
-        _CP0_SET_COUNT(0);
-        while (_CP0_GET_COUNT()<12000){
-            if (PORTBbits.RB4 == 0){
-                while(PORTBbits.RB4 == 0){
-                    
-                }
-            }
+        else if (_CP0_GET_COUNT() > 500000)    {
+            LATAINV = 0b10000;   // toggle LED
+            _CP0_SET_COUNT(0);  // reset clock        
         }
-        
-	
-    }
+    }   // e
 }
