@@ -103,8 +103,9 @@ void __ISR(_TIMER_4_VECTOR, IPL4SOFT) Timer4ISR(void) {
     }
     
     
-//    OC1RS = wheel1;
-//    OC4RS = wheel2;
+    OC1RS = wheel1;
+    OC4RS = wheel2;
+
     
     TMR3 = 0;
     TMR4=0;
