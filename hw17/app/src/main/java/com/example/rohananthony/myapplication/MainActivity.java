@@ -116,7 +116,7 @@ public class MainActivity extends Activity implements TextureView.SurfaceTexture
         if (c != null) {
             int thresh = 0; // comparison value
             int[] pixels = new int[bmp.getWidth()]; // pixels[] is the RGBA data
-            int startY = 200; // which row in the bitmap to analyze to read
+            int startY = 300; // which row in the bitmap to analyze to read
 
             int T = getT();
             int COM = 0;
@@ -149,9 +149,9 @@ public class MainActivity extends Activity implements TextureView.SurfaceTexture
                 COM = sum_mr / sum_m;
             }
             else{
-                COM = 0;
+                COM = 320;
             }
-            canvas.drawCircle(COM, 240, 5, paint1);
+            canvas.drawCircle(COM, 300, 5, paint1);
         }
 
         // draw a circle at some position
