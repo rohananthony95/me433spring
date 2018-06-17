@@ -82,11 +82,11 @@ void __ISR(_TIMER_4_VECTOR, IPL4SOFT) Timer4ISR(void) {
     int ref = 0;
     int wheel1;
     int wheel2;
-    tot_error1 = tot_error1 + (ref-(TMR3/TMR4));
-    tot_error2 = tot_error2 + (ref-(TMR5/TMR4));
+    tot_error1 = tot_error1 + (ref-(TMR3);
+    tot_error2 = tot_error2 + (ref-(TMR5);
     
-    wheel1  = kp*(ref-(TMR3/TMR4)) + ki*tot_error1;
-    wheel2 = kp*(ref-(TMR5/TMR4)) + ki*tot_error2;
+    wheel1  = kp*(ref-(TMR3) + ki*tot_error1;
+    wheel2 = kp*(ref-(TMR5) + ki*tot_error2;
     
     if (wheel1<0){
         wheel1 =0;

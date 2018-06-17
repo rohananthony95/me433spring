@@ -68,7 +68,7 @@ int main() {
         if (!PORTBbits.RB4) {
             LATAbits.LATA4 = 0; 
         }
-        else if (_CP0_GET_COUNT() > 500000)    {
+        else if (_CP0_GET_COUNT() > 560000)    {
             LATAINV = 0b10000;
             _CP0_SET_COUNT(0);
         }
