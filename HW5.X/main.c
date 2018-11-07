@@ -90,10 +90,6 @@ int main() {
 
     // do your TRIS and LAT commands here
 
-    
-    
-    
-    
     init_expander();  
     __builtin_enable_interrupts();
     _CP0_SET_COUNT(0);    
