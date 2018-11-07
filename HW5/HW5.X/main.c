@@ -38,7 +38,7 @@
 
 
 
-void init_expander(){
+void init_expander(){ //i2c initialization
     i2c_master_setup();
     i2c_master_start();
     i2c_master_send(0b01000000);
@@ -47,7 +47,7 @@ void init_expander(){
     i2c_master_stop();
 }
 
-void set_expander(char pin, char level){
+void set_expander(char pin, char level){ //write to chip
     i2c_master_start();
     i2c_master_send(0b01000000);
     i2c_master_send(0x0A);
@@ -55,7 +55,7 @@ void set_expander(char pin, char level){
     i2c_master_stop;
 }
 
-unsigned char get_expander(){
+unsigned char get_expander(){ //record value from chip
     unsigned char abcd;
     i2c_master_start();
     i2c_master_send(0b01000000);
