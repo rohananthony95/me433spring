@@ -55,9 +55,9 @@ int main() {
     
 
     // do your TRIS and LAT commands here
-    TRISBbits.TRISB4 = 1;
-    TRISAbits.TRISA4 = 0;
-    LATAbits.LATA4 = 1;
+    TRISBbits.TRISB4 = 1; // B4 is an configured as an input button
+    TRISAbits.TRISA4 = 0; // A4 is configured as an output LED
+    LATAbits.LATA4 = 1; // initialize output on
     
 
     __builtin_enable_interrupts();
@@ -68,7 +68,7 @@ int main() {
         if (!PORTBbits.RB4) {
             LATAbits.LATA4 = 0; 
         }
-        else if (_CP0_GET_COUNT() > 560000)    {
+        else if (_CP0_GET_COUNT() > 1250000)    {
             LATAINV = 0b10000;
             _CP0_SET_COUNT(0);
         }
