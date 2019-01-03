@@ -9,5 +9,6 @@ C, Java, Matlab
 ## HW1
 In the first assignment we had to familiarize ourselves with the PIC32 microcontroller and its peripheral components and assemble a general puropose circuit board for the coming assignemts. The ojective of the assignment was to build our circuit board and demonstrate that it could make an LED blink at a frequency of 1kHz.
 ![alt text](https://github.com/rohananthony95/me433spring/blob/master/HW1/hw1breadb.JPG)
+<img src="https://github.com/rohananthony95/me433spring/blob/master/HW1/hw1breadb.JPG"  width="120" height="120">
 
 
