@@ -16,6 +16,27 @@ In the second assignment I designed an EAGLE schematic of my original circuit in
 Designed PCB and generated Gerber files. [HW3 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW3)
 ## HW4
 In the fourth assignment I added an SPI DAC to our original circuit board configuration. I created functions to initialize and communicate with the DAC. To demonstrate success I had the DAC output both a sine wave as well as a triangle wave.  
-<img src="https://github.com/rohananthony95/me433spring/blob/master/HW4/hw4.png"  width="120" height="120">
+<img src="https://github.com/rohananthony95/me433spring/blob/master/HW4/hw4.png"  width="120" height="120">[HW4 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW4)
 ## HW5
-Here I incorporated an pin expander to my breadboard and communicated to it using the I2C protocol. 
+Here I incorporated an pin expander to my breadboard and communicated to it using the I2C protocol. [HW5 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW5)
+## HW6
+In this assignment I added an LCD module to my circuit board and communicated with it using SPI. [HW6 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW6)
+## HW7
+I added an I2C accelerometer to the board and wrote a program that displayed the orientation of the board on the LCD. [HW7 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW7)
+## HW8
+The objective here was to implement the previous assignment in MPLABX Harmony. [HW8 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW9)
+## HW9
+The goal of this assignment was to configure the microcontroller to communicate with my computer using USB. [HW9 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW9)
+## HW10
+In this assignment I analyzed the gyroscope data sent to the computer via USB with FIR, IIR, and MAV filters. 
+[HW10 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW10)
+## HW11
+The objective of this assignment was to control the cursor of my computer with the gyroscope of my circuit board. [HW11 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW11)
+## HW12
+Here I familiarized myself with Android and wrote a simple application with a clean interface and basic modules like a slider.
+[HW12 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW12)
+## HW13
+I wrote an Android application that could recognize green objects in the field of view of the camera. 
+[HW13 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW13)
+## HW14
+The purpose of this assignment was to make an Android application which could send data to the microcontroller and have that data returned back to the application demonstrating communication using USB. [HW14 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW14)
