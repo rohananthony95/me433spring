@@ -15,7 +15,7 @@ In the second assignment I designed an EAGLE schematic of my original circuit in
 Designed PCB and generated Gerber files. [HW3 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW3)
 ## HW4
 In the fourth assignment I added an SPI DAC to our original circuit board configuration. I created functions to initialize and communicate with the DAC. The DAC output both a sine wave as well as a triangle wave. [HW4 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW4) 
-<img src="https://github.com/rohananthony95/me433spring/blob/master/HW4/hw4.png"  width="120" height="120">
+<img src="https://github.com/rohananthony95/me433spring/blob/master/HW4/hw4.png"  width="240" height="240">
 ## HW5
 Here I incorporated an pin expander to my breadboard and communicated to it using the I2C protocol. [HW5 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW5)
 ## HW6
