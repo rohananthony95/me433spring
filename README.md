@@ -39,20 +39,23 @@ I added an I2C accelerometer to the board and wrote a program that displayed the
 The objective here was to implement the previous assignment in MPLABX Harmony. [HW8 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW9).
 ## HW9
 The goal of this assignment was to configure the microcontroller to communicate with my computer using USB. [HW9 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW9).
-[HW9 demo download](
+[HW9 demo download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/rohananthony95/me433spring/blob/master/HW9/HW9.MOV).
 ## HW10
 In this assignment I analyzed the gyroscope data sent to the computer via USB with FIR, IIR, and MAV filters. 
 [HW10 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW10).
 ## HW11
 The objective of this assignment was to control the cursor of my computer with the gyroscope of my circuit board. [HW11 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW11).
+[HW11 demo download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/rohananthony95/me433spring/blob/master/HW11/HW11.MOV).
 ## HW12
 Here I familiarized myself with Android and wrote a simple application with a clean interface and basic modules like a slider.
 [HW12 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW12).
 ## HW13
 I wrote an Android application that could recognize green objects in the field of view of the camera. 
 [HW13 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW13).
+[HW13 demo download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/rohananthony95/me433spring/blob/master/HW13/HW13.MOV).
 ## HW14
 The purpose of this assignment was to make an Android application which could send data to the microcontroller and have that data returned back to the application demonstrating communication using USB. [HW14 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW14).
+[HW14 demo download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/rohananthony95/me433spring/blob/master/HW14/HW14.MOV).
 ## HW15
 I created a base and wheels for the robot using CAD. I 3D printed the wheels and laser cut the frame of the robot using acrylic. [HW15 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW15).
 ## HW16
