@@ -13,6 +13,8 @@ Course Page: [ME 433](https://github.com/ndm736/ME433_2018/wiki)
 [I/O Expander](http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf),
 [IMU](https://www.pololu.com/product/2736),
 [Android Phone](https://www.amazon.com/gp/product/B00HPP3VW2/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
+### Tools
+Eagle, Onshape
 ### Languages
 C, Java, Matlab
 ## HW1
@@ -43,6 +45,7 @@ The goal of this assignment was to configure the microcontroller to communicate 
 ## HW10
 In this assignment I analyzed the gyroscope data sent to the computer via USB with FIR, IIR, and MAV filters. 
 [HW10 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW10).
+<img src="https://github.com/rohananthony95/me433spring/blob/master/HW10/processing/hw10.png"  width="240" height="240">
 ## HW11
 The objective of this assignment was to control the cursor of my computer with the gyroscope of my circuit board. [HW11 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW11).
 [HW11 demo download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/rohananthony95/me433spring/blob/master/HW11/HW11.MOV).
@@ -63,4 +66,4 @@ Wrote a simple PI controller for the wheel velocity of my robot. [HW16 assignmen
 ## HW17
 Wrote the Android application to find the center of a rainbow line. [HW17 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW17).
 ## HW18
-Combined all of the components and had a finished robot which followed a line. [HW18 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW18).
+Combined all of the components and had a finished robot which followed a rainbow path. [HW18 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW18).
