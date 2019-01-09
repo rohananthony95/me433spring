@@ -5,13 +5,13 @@ This repository contains the documentation for assignments in Mechanical Enginee
 Professor: Nick Marchuk
 Course Page: [ME 433](https://github.com/ndm736/ME433_2018/wiki)
 ### Hardware
-[PIC32MX250 Microcontroller](http://ww1.microchip.com/downloads/en/DeviceDoc/PIC32MX1XX2XX-28-36-44-PIN-DS60001168K.pdf)
-[MCP1702 Voltage Regulator](http://ww1.microchip.com/downloads/en/DeviceDoc/22008E.pdf)
-[8MHz crystal resonator](https://www.digikey.com/products/en?keywords=490-1212-ND)
-[USB breakout board](https://www.pololu.com/product/2593)
-[TFT LCD](https://www.aliexpress.com/item/Free-Shipping-1-8-inch-TFT-touch-LCD-Module-LCD-Screen-Module-SPI-serial-51-drivers/32263827143.html)
-[I/O Expander](http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf)
-[IMU](https://www.pololu.com/product/2736)
+[PIC32MX250 Microcontroller](http://ww1.microchip.com/downloads/en/DeviceDoc/PIC32MX1XX2XX-28-36-44-PIN-DS60001168K.pdf),
+[MCP1702 Voltage Regulator](http://ww1.microchip.com/downloads/en/DeviceDoc/22008E.pdf),
+[8MHz crystal resonator](https://www.digikey.com/products/en?keywords=490-1212-ND),
+[USB breakout board](https://www.pololu.com/product/2593),
+[TFT LCD](https://www.aliexpress.com/item/Free-Shipping-1-8-inch-TFT-touch-LCD-Module-LCD-Screen-Module-SPI-serial-51-drivers/32263827143.html),
+[I/O Expander](http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf),
+[IMU](https://www.pololu.com/product/2736),
 [Android Phone](https://www.amazon.com/gp/product/B00HPP3VW2/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
 ### Languages
 C, Java, Matlab
