@@ -20,6 +20,7 @@ In the first assignment I familiarized myself with the PIC32 microcontroller and
 <img src="https://github.com/rohananthony95/me433spring/blob/master/HW1/hw1breadb.JPG"  width="240" height="240">
 ## HW2
 In the second assignment I designed an EAGLE schematic of my original circuit in the first assignment. [HW2 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW2)
+<img src="https://github.com/rohananthony95/me433spring/blob/master/HW3/HW3s.png"  width="240" height="240">
 ## HW3
 Designed PCB and generated Gerber files. [HW3 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW3)
 ## HW4
