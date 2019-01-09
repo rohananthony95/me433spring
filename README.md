@@ -21,7 +21,7 @@ C, Java, Matlab
 In the first assignment I familiarized myself with the PIC32 microcontroller and its peripheral components and assembled a general puropose circuit board for the coming assignments. The ojective of the assignment was to build our circuit board and demonstrate that it could make an LED blink at a frequency of 1kHz. [HW1 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW1).
 <img src="https://github.com/rohananthony95/me433spring/blob/master/HW1/hw1breadb.JPG"  width="240" height="240">
 ## HW2
-In the second assignment I designed an EAGLE schematic of my original circuit. [HW2 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW2).
+In the second assignment I designed an EAGLE schematic of the final circuit board. [HW2 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW2).
 <img src="https://github.com/rohananthony95/me433spring/blob/master/HW3/HW3s.png"  width="240" height="240">
 ## HW3
 Designed PCB and generated Gerber files. [HW3 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW3).
