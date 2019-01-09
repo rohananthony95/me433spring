@@ -43,8 +43,7 @@ The objective here was to implement the previous assignment in MPLABX Harmony. [
 The goal of this assignment was to configure the microcontroller to communicate with my computer using USB. [HW9 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW9).
 [HW9 demo download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/rohananthony95/me433spring/blob/master/HW9/HW9.MOV).
 ## HW10
-In this assignment I analyzed the gyroscope data sent to the computer via USB with FIR, IIR, and MAV filters. 
-[HW10 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW10).
+I analyzed the gyroscope data sent to the computer via USB with FIR, IIR, and MAV filters. [HW10 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW10).
 <img src="https://github.com/rohananthony95/me433spring/blob/master/HW10/processing/hw10.png"  width="240" height="240">
 ## HW11
 The objective of this assignment was to control the cursor of my computer with the gyroscope of my circuit board. [HW11 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW11).
