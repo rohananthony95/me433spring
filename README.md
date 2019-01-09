@@ -60,7 +60,9 @@ The purpose of this assignment was to make an Android application which could se
 [HW14 demo download](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/rohananthony95/me433spring/blob/master/HW14/HW14.MOV).
 ## HW15
 I created a base and wheels for the robot using CAD. I 3D printed the wheels and laser cut the frame of the robot using acrylic. [HW15 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW15).
-<img src="https://github.com/rohananthony95/me433spring/blob/master/HW15/base.png"  width="240" height="240"> <img src="https://github.com/rohananthony95/me433spring/blob/master/HW15/wheel.png"  width="240" height="240"><img src="https://github.com/rohananthony95/me433spring/blob/master/HW15/side.png"  width="240" height="240">
+<img src="https://github.com/rohananthony95/me433spring/blob/master/HW15/base.png"  width="240" height="240"> 
+<img src="https://github.com/rohananthony95/me433spring/blob/master/HW15/wheel.png"  width="240" height="240">
+<img src="https://github.com/rohananthony95/me433spring/blob/master/HW15/side.png"  width="240" height="240">
 ## HW16
 Wrote a simple PI controller for the wheel velocity of my robot. [HW16 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW16).
 ## HW17
