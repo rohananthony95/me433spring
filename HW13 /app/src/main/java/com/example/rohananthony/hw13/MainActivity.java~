@@ -132,6 +132,7 @@ public class MainActivity extends Activity implements TextureView.SurfaceTexture
         mSurfaceHolder.unlockCanvasAndPost(c);
 
         // calculate the FPS to see how fast the code is running
+	//d 
         long nowtime = System.currentTimeMillis();
         long diff = nowtime - prevtime;
         mTextView.setText("FPS " + 1000 / diff);
