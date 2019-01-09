@@ -70,3 +70,4 @@ Wrote a simple PI controller for the wheel velocity of my robot. [HW16 assignmen
 Wrote the Android application to find the center of a rainbow line. [HW17 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW17).
 ## HW18
 Combined all of the components and had a finished robot which followed a rainbow path. [HW18 assignment description](https://github.com/ndm736/ME433_2018/wiki/HW18).
+<img src="https://github.com/rohananthony95/me433spring/blob/master/final/final.jpg"  width="240" height="240">
